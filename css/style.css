@@ -1,8 +1,9 @@
 body{
 
+    background: #1e1f24;
     color: #333;
-    text-align: left;
-    font-family: "Ariel ";
+    text-align: center;
+    font-family: Arial;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -15,6 +16,12 @@ body{
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #container #tagline{
@@ -36,5 +43,6 @@ body{
 }
 
 #post{
+    background: white;
     padding: 1em;
 }
